@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDIVisit - Tours & Travel</title>
+  <!-- --------- Favicon --------- -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+  <!-- --------- Custom CSS Link --------- -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- --------- Google Font Link --------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+  <!-- --------- HEADER SECTION --------- -->
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <a href="tel:+01123456790" class="helpline-box">
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+91 9876 54321</p>
+          </div>
+        </a>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="IndiVIsit logo" style="width: 85%;">
+        </a>
+        <div class="header-btn-group">
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Tourly logo">
+            </a>
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+            <li>
+              <a href="#tour-search" class="navbar-link" data-nav-link>inquire now</a>
+            </li>
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- --------- HERO SECTION --------- -->
+      <section class="hero" id="home">
+        <div class="container">
+          <h2 class="h1 hero-title">Journey to explore India</h2>
+          <p class="hero-text">
+            Time spent in India has an extraordinary effect on one. It acts as a barrier that makes the rest of the
+            world seem unreal.
+          </p>
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+            <button class="btn btn-secondary">Book now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- TOUR SEARCH SECTION --------- -->
+      <section class="tour-search" id="tour-search">
+        <div class="container">
+          <form action="" class="tour-search-form">
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Destination*</label>
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- --------- POPULAR SECTION --------- -->
+      <section class="popular" id="destination">
+        <div class="container">
+          <p class="section-subtitle">Uncover Indian places</p>
+          <h2 class="h2 section-title">Popular destinations</h2>
+          <p class="section-text">
+            Be it culturally or geographically. No two cities or states are the same!
+          </p>
+
+          <ul class="popular-list">
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="Goa, India" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">India</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">GOA</a>
+                  </h3>
+                  <p class="card-text">
+                    Pristine beaches, hippie vibes, laidback lifestyle and vibrant parties.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Agra, India" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">India</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Agra</a>
+                  </h3>
+                  <p class="card-text">
+                    First thing that comes to mind is the magnificent Taj Mahal, one of the Seven Wonders of the World.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Rajasthan, India" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">India</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Rajasthan</a>
+                  </h3>
+                  <p class="card-text">
+                    The land of kings, Rajasthan is a vibrant state that attracts history buffs, architecture lovers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary">More destintions</button>
+
+        </div>
+      </section>
+
+      <!-- --------- PACKAGE SECTION --------- -->
+      <section class="package" id="package">
+        <div class="container">
+          <p class="section-subtitle">Popular Packages</p>
+          <h2 class="h2 section-title">Checkout Our Packages</h2>
+
+          <p class="section-text">
+            You can checkout our most popular and most recommended packages here at best price!
+          </p>
+
+          <ul class="package-list">
+            <li>
+              <div class="package-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Andamans"
+                    loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Havelock Island with Ross Island & North Bay Island & Wandoor</h3>
+                  <p class="card-text">
+                    Andaman and Nicobar Islands, union territory, India, consisting of two groups of islands at the
+                    south eastern edge of the Bay of Bengal.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+                        <p class="text">3D/4N</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+                        <p class="text">Pax: 04</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+                        <p class="text">Andamans Island</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="card-price">
+                  <div class="wrapper">
+                    <p class="reviews">(25 reviews)</p>
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    ₹9,800
+                    <span>/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary">Book Now</button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday In Ladakh" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Summer Holidays In Ladakh</h3>
+                  <p class="card-text">
+                    Ladakh is one of the most sparsely populated regions in Jammu and Kashmir and its culture and
+                    history are closely related to that of Tibet.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+                        <p class="text">6D/5N</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+                        <p class="text">Pax: 06</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+                        <p class="text">India</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-price">
+                  <div class="wrapper">
+                    <p class="reviews">(90 reviews)</p>
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    ₹10,000
+                    <span>/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary">Book Now</button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Kashmir's Weekend Vacation" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Kashmir's Weekend Vacation</h3>
+                  <p class="card-text">
+                    The Himalayas divide the Kashmir valley from Ladakh while the Pir Panjal range, which encloses the
+                    valley from the west and the south, separates it from the Great Plains of northern India.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">6D/5N</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+                        <p class="text">Pax: 4</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">India</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-price">
+                  <div class="wrapper">
+                    <p class="reviews">(40 reviews)</p>
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    ₹11,220
+                    <span>/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary">Book Now</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+      <!-- --------- GALLERY SECTION --------- -->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <p class="section-subtitle">Photo Gallery</p>
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
+          <p class="section-text">
+            Most loved tourist taken pictures of the year 2023!
+          </p>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.png" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.webp" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- --------- CTA SECTION --------- -->
+      <section class="cta" id="contact">
+        <div class="container">
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+            <p class="section-text">
+              [INDIA] One land that all men desire to see, and having seen once, by even a glimpse, would not give that
+              glimpse for all the shows of all the rest of the globe combined
+            </p>
+          </div>
+          <button class="btn btn-secondary">Contact Us !</button>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- --------- FOOTER SECTION --------- -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Tourly logo">
+          </a>
+          <p class="footer-text">
+            Time spent in India has an extraordinary effect on one. It acts as a barrier that makes the rest of the
+            world seem unreal.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="contact-title">Contact Us</h4>
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+          <ul>
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+              <a href="tel:+01123456790" class="contact-link">+91 9876 54321</a>
+            </li>
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.indivisit.com" class="contact-link">info.indivisit.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-form">
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023 <a href="#">INDIVisit</a>. All rights reserved
+        </p>
+        <ul class="footer-bottom-list">
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- --------- GO TO TOP --------- -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+  <!-- --------- Custom JS Link --------- -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- --------- Ionicon Link --------- -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
